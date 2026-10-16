@@ -1,0 +1,10 @@
+{
+  "name": "aifans-api-examples",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "latest",
+    "ai": "latest",
+    "openai": "latest"
+  }
+}

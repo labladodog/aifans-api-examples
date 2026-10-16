@@ -1,0 +1,16 @@
+name: AIFans API
+version: 0.0.1
+schema: v1
+models:
+  - name: deepseek-v4.1-flash
+    provider: openai
+    model: deepseek-v4.1-flash
+    apiBase: https://api.aifans.fan/v1
+    apiKey: YOUR_API_KEY
+    roles: [chat, edit, apply]
+  - name: deepseek-v4-pro
+    provider: openai
+    model: deepseek-v4-pro
+    apiBase: https://api.aifans.fan/v1
+    apiKey: YOUR_API_KEY
+    roles: [chat, edit]
